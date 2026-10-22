@@ -32,6 +32,7 @@ src/main/java
 - [x] LeetCode 27 移除元素 | Easy | 2026-10-19
 - [x] LeetCode 977 有序数组的平方 | Easy | 2026-10-20
 - [x] LeetCode 209 长度最小的子数组（滑动窗口） | Medium | 2026-10-21
+- [x] LeetCode 59 螺旋矩阵 | Medium | 2026-10-22
 ### 链表
 - [ ] 待刷题
 
