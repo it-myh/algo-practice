@@ -4,7 +4,12 @@ package linkedlist;
  * 反转链表
  */
 public class ReverseLinkedList {
-    public ListNode reverseList(ListNode head) {
+    /**
+     * 双指针法
+     * @param head
+     * @return
+     */
+    public ListNode reverseList1(ListNode head) {
         ListNode cur = head;
         ListNode pre = null;
         while(cur != null){
@@ -17,5 +22,23 @@ public class ReverseLinkedList {
             cur = temp;
         }
         return pre;
+    }
+
+    /**
+     * 递归版
+     * @param cur
+     * @param pre
+     * @return
+     */
+    public ListNode reverse(ListNode cur, ListNode pre){
+        if(cur == null){
+            return pre;
+        }
+        ListNode temp = cur.next;
+        cur.next = pre;
+        return reverse(temp, cur);
+    }
+    public ListNode reverseList2(ListNode head) {
+        return reverse(head, null);
     }
 }
