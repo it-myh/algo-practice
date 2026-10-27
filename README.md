@@ -38,6 +38,7 @@ src/main/java
 - [x] LeetCode 203 移除链表元素 | Easy | 2026-10-24
 - [x] LeetCode 707 设计链表 | Medium | 2026-10-25
 - [x] LeetCode 206 反转链表 | Easy | 2026-10-26
+- [x] LeetCode 24 两两交换链表中的节点 | Medium | 2026-10-27
 ### 哈希表
 - [ ] 待刷题
 
