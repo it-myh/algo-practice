@@ -40,6 +40,7 @@ src/main/java
 - [x] LeetCode 206 反转链表 | Easy | 2026-10-26
 - [x] LeetCode 24 两两交换链表中的节点 | Medium | 2026-10-27
 - [x] LeetCode 19 删除链表的倒数第N个节点 | Medium | 2026-10-28
+- [x] LeetCode 19 链表相交 | Easy | 2026-11-3
 ### 哈希表
 - [ ] 待刷题
 
